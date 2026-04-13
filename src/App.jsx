@@ -391,12 +391,20 @@ function PracticeCard({ q, index, total, score, selected, confirmed, isCorrect, 
           <QuestionHeading question={q.question} badgeColor="text-violet-600" isMulti={isMulti} answerCount={q.answer.length} />
 
           <div className="flex flex-col gap-4 mb-8">
-            {q.options.map((opt, i) => (
-              <OptionRow key={opt} opt={opt} letter={LETTERS[i]}
-                style={optStyle(opt)}
-                icon={makeIcon(LETTERS[i], selected.includes(opt), isMulti, 'border-blue-500', 'bg-blue-600')}
-                onClick={() => choose(opt)} disabled={confirmed} />
-            ))}
+            {q.options.map((opt, i) => {
+              const isAns = q.answer.includes(opt)
+              const isSel = selected.includes(opt)
+              const icon = confirmed
+                ? <span className={`shrink-0 w-8 h-8 rounded-full border-2 flex items-center justify-center text-sm font-bold ${isAns ? 'border-green-500 bg-green-600 text-white' : isSel ? 'border-red-500 bg-red-600 text-white' : 'border-gray-600 text-gray-500'}`}>
+                    {isAns ? <Check size={15} strokeWidth={3} /> : isSel ? <X size={15} strokeWidth={3} /> : LETTERS[i]}
+                  </span>
+                : makeIcon(LETTERS[i], isSel, isMulti, 'border-blue-500', 'bg-blue-600')
+              return (
+                <OptionRow key={opt} opt={opt} letter={LETTERS[i]}
+                  style={optStyle(opt)} icon={icon}
+                  onClick={() => choose(opt)} disabled={confirmed} />
+              )
+            })}
           </div>
 
           {!confirmed && (
