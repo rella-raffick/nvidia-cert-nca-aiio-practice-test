@@ -1,0 +1,1011 @@
+[
+  {
+    "question": "A company is implementing a new network architecture and needs to consider the requirements and considerations for training and inference. Which of the following statements is true about training and inference architecture?",
+    "options": [
+      "Training architecture and inference architecture have the same requirements and considerations.",
+      "Training architecture is only concerned with hardware requirements, while inference architecture is only concerned with software requirements.",
+      "Training architecture is focused on optimizing performance while inference architecture is focused on reducing latency.",
+      "Training architecture and inference architecture cannot be the same."
+    ],
+    "answer": "Training architecture is focused on optimizing performance while inference architecture is focused on reducing latency.",
+    "reasoning": "Training architecture is focused on optimizing performance while inference architecture is focused on reducing latency. Training requires processing massive datasets and performing computationally intensive operations to maximize throughput, while inference focuses on deploying a trained model to make predictions with the lowest possible latency."
+  },
+  {
+    "question": "For which workloads is NVIDIA Merlin typically used?",
+    "options": [
+      "Recommender systems",
+      "Natural language processing",
+      "Data analytics"
+    ],
+    "answer": "Recommender systems",
+    "reasoning": "NVIDIA Merlin is an end-to-end, GPU-accelerated framework purpose-built for developing, training, and deploying large-scale recommender systems."
+  },
+  {
+    "question": "Which NVIDIA parallel computing platform and programming model allows developers to program in popular languages and express parallelism through extensions?",
+    "options": [
+      "CUDA",
+      "CUML",
+      "CUGRAPH"
+    ],
+    "answer": "CUDA",
+    "reasoning": "CUDA is NVIDIA’s parallel computing platform and programming model that provides language extensions enabling developers to express fine-grained parallelism directly from popular languages."
+  },
+  {
+    "question": "Which of the following aspects have led to an increase in the adoption of AI?",
+    "options": [
+      "Moore’s Law and Rule-based machine learning",
+      "High Powered GPUs and Large amounts of data",
+      "Moore’s Law and Large amounts of data",
+      "Rule-based machine learning and High Powered GPUs"
+    ],
+    "answer": "High Powered GPUs and Large amounts of data",
+    "reasoning": "The confluence of massively parallel, high-powered GPUs and the availability of large labeled and unlabeled datasets provided the computational throughput and statistical material necessary to train large deep neural networks."
+  },
+  {
+    "question": "In training and inference architecture requirements, what is the main difference between training and inference?",
+    "options": [
+      "Training requires real-time processing, while inference requires large amounts of data.",
+      "Training requires large amounts of data, while inference requires real-time processing.",
+      "Training and inference both require large amounts of data.",
+      "Training and inference both require real-time processing."
+    ],
+    "answer": "Training requires large amounts of data, while inference requires real-time processing.",
+    "reasoning": "Training is dominated by large-scale, iterative data processing and gradient computation, while inference is primarily constrained by low-latency, real-time serving requirements."
+  },
+  {
+    "question": "Which of the following statements is true about GPUs and CPUs?",
+    "options": [
+      "GPUs are optimized for parallel tasks, while CPUs are optimized for serial tasks.",
+      "GPUs have very low bandwidth main memory while CPUs have very high bandwidth main memory.",
+      "GPUs and CPUs have the same number of cores, but GPUs have higher clock speeds.",
+      "GPUs and CPUs have identical architectures and can be used interchangeably."
+    ],
+    "answer": "GPUs are optimized for parallel tasks, while CPUs are optimized for serial tasks.",
+    "reasoning": "GPUs are designed as many-core, throughput-oriented processors that maximize parallel instruction execution and memory bandwidth, whereas CPUs provide a few complex, latency-optimized cores for serial and control-intensive tasks."
+  },
+  {
+    "question": "Which two components are included in GPU Operator?",
+    "options": [
+      "Drivers and PYTorch",
+      "Drivers and DCGM",
+      "PYTorch and TensorFlow",
+      "DCGM and TensorFlow"
+    ],
+    "answer": "Drivers and DCGM",
+    "reasoning": "The GPU Operator is designed to manage node-level NVIDIA software (drivers) and GPU telemetry/diagnostics (DCGM) as part of its cluster-wide reconciliation of GPU resources."
+  },
+  {
+    "question": "Which phase of deep learning benefits the greatest from a multi-node architecture?",
+    "options": [
+      "Data Augmentation",
+      "Training",
+      "Inference"
+    ],
+    "answer": "Training",
+    "reasoning": "Training requires large-scale, iterative parallel compute and distributed memory to process and optimize very large models and datasets efficiently."
+  },
+  {
+    "question": "Which architecture is the core concept behind large language models?",
+    "options": [
+      "BERT Large model",
+      "State space model",
+      "Transformer model",
+      "Attention model"
+    ],
+    "answer": "Transformer model",
+    "reasoning": "The transformer architecture—with stacked self-attention, multi-head attention, residual connections, and positional encodings—is the structural template that enables scalable, parallelizable autoregressive and encoder-decoder LLMs."
+  },
+  {
+    "question": "What is a key value of using NVIDIA NIMs?",
+    "options": [
+      "They provide fast and simple deployment of AI models.",
+      "They have community support.",
+      "They allow the deployment of NVIDIA SDKs."
+    ],
+    "answer": "They provide fast and simple deployment of AI models.",
+    "reasoning": "NVIDIA NIMs are prepackaged, containerized inference microservices explicitly engineered to deliver rapid, low-effort deployment and production-ready inference for AI models."
+  },
+  {
+    "question": "The foundation of the NVIDIA software stack is the DGX OS. Which of the following Linux distributions is DGX OS built upon?",
+    "options": [
+      "Ubuntu",
+      "Red Hat",
+      "CentOS"
+    ],
+    "answer": "Ubuntu",
+    "reasoning": "The NVIDIA DGX OS, the core software environment for NVIDIA DGX systems, is built upon Ubuntu, leveraging its robust ecosystem and widespread adoption in the AI community."
+  },
+  {
+    "question": "What is the name of NVIDIA’s SDK that accelerates machine learning?",
+    "options": [
+      "Clara",
+      "RAPIDS",
+      "cuDNN"
+    ],
+    "answer": "cuDNN",
+    "reasoning": "cuDNN is NVIDIA's SDK specifically designed to accelerate deep learning frameworks. It provides highly optimized routines for primitive operations like convolutions and pooling."
+  },
+  {
+    "question": "Which aspect of computing uses large amounts of data to train complex neural networks?",
+    "options": [
+      "Machine learning",
+      "Deep learning",
+      "Inferencing"
+    ],
+    "answer": "Deep learning",
+    "reasoning": "Deep learning denotes the training of multi-layer neural networks that depend on very large datasets to learn hierarchical, high-capacity representations."
+  },
+  {
+    "question": "Which of the following statements correctly differentiates between AI, Machine Learning, and Deep Learning?",
+    "options": [
+      "Machine Learning is a subset of AI, and AI is subset of Deep Learning",
+      "AI and Deep Learning are the same, while Machine Learning is a separate concept.",
+      "AI is a subset of Machine Learning, and Machine Learning is a subset of Deep Learning.",
+      "Deep Learning is a subset of Machine Learning, and Machine Learning is a subset of AI."
+    ],
+    "answer": "Deep Learning is a subset of Machine Learning, and Machine Learning is a subset of AI.",
+    "reasoning": "Deep learning is a class of machine-learning methods built from layered neural networks, and machine learning is one practical subfield of the broader discipline of artificial intelligence."
+  },
+  {
+    "question": "How is the architecture different in a GPU versus a CPU?",
+    "options": [
+      "A GPU acts as a PCIe controller to maximize bandwidth.",
+      "A GPU is architected to support massively parallel execution of simple instructions.",
+      "A GPU is a single large and complex core to support massive compute operations."
+    ],
+    "answer": "A GPU is architected to support massively parallel execution of simple instructions.",
+    "reasoning": "GPUs are throughput-oriented, many-core processors that execute very large numbers of simple, data-parallel instructions concurrently using SIMT/SIMD hardware and hardware multithreading."
+  },
+  {
+    "question": "What factors have led to significant breakthroughs in Deep Learning?",
+    "options": [
+      "Advances in hardware, availability of fast internet connections, and improvements in training algorithms",
+      "Advances in sensors, availability of large datasets, and improvements to the “Bag of Words” algorithm.",
+      "Advances in hardware, availability of large datasets, and improvements in training algorithms.",
+      "Advances in smartphones, social media sites, and improvements in statistical techniques."
+    ],
+    "answer": "Advances in hardware, availability of large datasets, and improvements in training algorithms.",
+    "reasoning": "The confluence of high-throughput hardware, very large labeled corpora, and rigorous advances in training algorithms produced multiplicative improvements in model capacity and optimization."
+  },
+  {
+    "question": "Which type of GPU core was specifically designed to realistically simulate the lighting of a scene?",
+    "options": [
+      "Tensor Cores",
+      "CUDA Cores",
+      "Ray Tracing Cores"
+    ],
+    "answer": "Ray Tracing Cores",
+    "reasoning": "Ray Tracing Cores are dedicated hardware units that accelerate BVH traversal and ray-triangle intersection operations, enabling real-time, physically plausible simulation of lighting."
+  },
+  {
+    "question": "Which GPUs should be used when training a neural network for self-driving cars?",
+    "options": [
+      "NVIDIA H100 GPUs",
+      "NVIDIA L4 GPUs",
+      "NVIDIA DRIVE Orin"
+    ],
+    "answer": "NVIDIA H100 GPUs",
+    "reasoning": "H100 GPUs deliver the highest tensor throughput, mixed-precision training features, large HBM capacity, and scaling required to train large, sensor-fusion and perception networks."
+  },
+  {
+    "question": "A customer is evaluating an AI cluster for training and is questioning why they should use a large number of nodes. Why would multi-node training be advantageous?",
+    "options": [
+      "The model is too large to fit into GPU memory",
+      "The model is being used by a large number of users",
+      "The model is being used for large scale inference workloads"
+    ],
+    "answer": "The model is too large to fit into GPU memory",
+    "reasoning": "When a model's parameter and activation footprint exceeds the memory of a single GPU, partitioning the model across multiple GPUs and nodes is required."
+  },
+  {
+    "question": "When should RoCE be considered to enhance network performance in a multi-node AI computing environment?",
+    "options": [
+      "A network that experiences a high packet loss rate (PLR).",
+      "A network with large amounts of storage traffic.",
+      "A network that cannot utilize the full available bandwidth due to high CPU utilization."
+    ],
+    "answer": "A network that cannot utilize the full available bandwidth due to high CPU utilization.",
+    "reasoning": "RoCE is appropriate because it offloads and bypasses the host TCP/IP stack, substantially reducing CPU overhead so the network can reach line-rate when high CPU utilization prevents full bandwidth use."
+  },
+  {
+    "question": "Which are three key features of InfiniBand networking technology?",
+    "options": [
+      "High reliability, high latency, and CPU offloads.",
+      "High latency, high reliability, and high bandwidth.",
+      "GPU offloads, low latency, high reliability.",
+      "Low latency, high bandwidth, and CPU offloads."
+    ],
+    "answer": "Low latency, high bandwidth, and CPU offloads.",
+    "reasoning": "InfiniBand provides hardware-accelerated low-latency transport, high bandwidth, and NIC/transport offloads that minimize CPU involvement."
+  },
+  {
+    "question": "An IT Professional is considering whether to implement an on-prem or cloud infrastructure. Which of the following is a key advantage of on-prem infrastructure?",
+    "options": [
+      "Lower upfront costs and capital expenditure",
+      "Scalability and flexibility",
+      "Ensure data security and sovereignty",
+      "Easy remote management."
+    ],
+    "answer": "Ensure data security and sovereignty",
+    "reasoning": "On-premises deployments give organizations primary control over physical assets, cryptographic key custody, and legal jurisdiction, directly enabling enforcement of data security and sovereignty requirements."
+  },
+  {
+    "question": "Which feature of RDMA reduces CPU utilization and lowers latency?",
+    "options": [
+      "Increased memory buffer size.",
+      "Network adapters that include hardware offloading.",
+      "NVIDIA Magnum I/O software."
+    ],
+    "answer": "Network adapters that include hardware offloading.",
+    "reasoning": "RDMA-capable network adapters implement hardware offloads that move data directly between host or GPU memory and the network without CPU involvement."
+  },
+  {
+    "question": "What is one key advantage that Cloud GPU Infrastructure has over On-Prem GPU infrastructure?",
+    "options": [
+      "Lower cost barrier to entry.",
+      "Reduced cost of I/O traffic.",
+      "Greater flexibility for hardware orchestration."
+    ],
+    "answer": "Lower cost barrier to entry.",
+    "reasoning": "Cloud GPU offerings lower the capital barrier by converting large, upfront hardware and facility expenditures into elastic, pay-as-you-go operational costs."
+  },
+  {
+    "question": "When training a neural network, what is the most common pattern of storage access?",
+    "options": [
+      "Random write",
+      "Sequential read",
+      "Sequential write"
+    ],
+    "answer": "Sequential read",
+    "reasoning": "Model training is dominated by streaming input of examples from storage, which is served most efficiently by sequential reads with prefetching and read-ahead to maximize throughput."
+  },
+  {
+    "question": "How many distinct network fabrics are in an AI cluster?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "answer": "4",
+    "reasoning": "AI clusters often employ a multi-fabric network architecture typically consisting of 4 distinct fabrics: Management Network, Storage Network, Compute Network, and Client Access Network."
+  },
+  {
+    "question": "How many 1 Gb Ethernet in-band network connections are in a DGX H100 system?",
+    "options": [
+      "1",
+      "2",
+      "0"
+    ],
+    "answer": "2",
+    "reasoning": "A DGX H100 system includes two 1 Gb Ethernet in-band network connections used for in-band management and basic networking."
+  },
+  {
+    "question": "How many Mellanox ConnectX-6 Single Port VPI cards are in a DGX A 100 system?",
+    "options": [
+      "8",
+      "16",
+      "4"
+    ],
+    "answer": "8",
+    "reasoning": "The DGX A100 ships with eight Mellanox ConnectX-6 Single Port VPI adapter cards to provide 200 Gb/s InfiniBand/Ethernet connectivity aligned with its eight-GPU architecture."
+  },
+  {
+    "question": "Which is the best PUE value for a data center?",
+    "options": [
+      "PUE of 1.2",
+      "PUE of 3.5",
+      "PUE of 5.0",
+      "PUE of 2.0"
+    ],
+    "answer": "PUE of 1.2",
+    "reasoning": "A PUE of 1.2 denotes very high energy efficiency, approaching the practical lower bound of 1.0 and minimizing infrastructure energy overhead relative to IT load."
+  },
+  {
+    "question": "Which solution should be recommended to support real-time collaboration and rendering among a team?",
+    "options": [
+      "A cluster of servers with NVIDIA T4 GPUs in each server.",
+      "A DGX SuperPOD.",
+      "An NVIDIA Certified Server with RTX based GPUs."
+    ],
+    "answer": "An NVIDIA Certified Server with RTX based GPUs.",
+    "reasoning": "An NVIDIA Certified Server with RTX-based GPUs delivers workstation-class, low-latency interactive graphics, hardware-accelerated ray tracing, and certified virtualization support required for real-time team collaboration."
+  },
+  {
+    "question": "What is a key benefit of using NVIDIA GPUDirect RDMA in an AI environment?",
+    "options": [
+      "It increases the power efficiency and thermal management of GPUs.",
+      "It reduces the latency and bandwidth overhead of remote memory access between GPUs.",
+      "It enables faster data transfers between GPUs and CPUs without involving the operating system.",
+      "It allows multiple GPUs to share the same memory space without any synchronization."
+    ],
+    "answer": "It reduces the latency and bandwidth overhead of remote memory access between GPUs.",
+    "reasoning": "GPUDirect with RDMA enables direct memory access between NVIDIA GPUs and other devices, such as network adapters, without involving the CPU, resulting in reduced latency."
+  },
+  {
+    "question": "What enables moving data between GPU memory and local or remote storage without using the CPU?",
+    "options": [
+      "NVLink",
+      "GPUDirect P2P",
+      "InfiniBand",
+      "GPUDirect Storage"
+    ],
+    "answer": "GPUDirect Storage",
+    "reasoning": "GPUDirect Storage enables direct, CPU-bypass DMA transfers between GPU memory and local or remote storage."
+  },
+  {
+    "question": "When using an InfiniBand network for an AI infrastructure, which software component is necessary for the fabric to function?",
+    "options": [
+      "Verbs",
+      "MPI",
+      "OpenSM"
+    ],
+    "answer": "OpenSM",
+    "reasoning": "OpenSM implements the Subnet Manager required by the InfiniBand Subnet Administration to allocate LIDs, compute routes, and program forwarding state so the fabric can initialize and operate."
+  },
+  {
+    "question": "When deploying high density workloads in a data center, what are the three main resource constraints that need to be considered?",
+    "options": [
+      "Processing speed, storage capacity, and network connectivity.",
+      "Power, cooling, and physical space.",
+      "Bandwidth, security, and redundancy."
+    ],
+    "answer": "Power, cooling, and physical space.",
+    "reasoning": "Because high-density deployments are constrained by fixed facility infrastructure, power, cooling, and physical space are the primary gating resources."
+  },
+  {
+    "question": "What is an advantage of InfiniBand over Ethernet?",
+    "options": [
+      "InfiniBand always provides higher bandwidth than Ethernet.",
+      "InfiniBand supports RDMA while Ethernet does not.",
+      "InfiniBand offers lower latency than Ethernet."
+    ],
+    "answer": "InfiniBand offers lower latency than Ethernet.",
+    "reasoning": "InfiniBand’s protocol and hardware are designed to minimize end-to-end latency through lightweight transport semantics and hardware offloads."
+  },
+  {
+    "question": "In a data center, what is the purpose and benefit of a DPU?",
+    "options": [
+      "A DPU is responsible for providing backup and disaster recovery solutions.",
+      "A DPU is used for managing physical infrastructure, such as power and cooling.",
+      "A DPU is responsible for managing network connections and security.",
+      "A DPU is designed to offload, accelerate, and isolate infrastructure workloads."
+    ],
+    "answer": "A DPU is designed to offload, accelerate, and isolate infrastructure workloads.",
+    "reasoning": "DPUs are purpose-built programmable systems that offload, accelerate, and isolate infrastructure workloads from the host CPU and hypervisor."
+  },
+  {
+    "question": "Which of the following statements is true about Kubernetes orchestration?",
+    "options": [
+      "It is bare-metal based but it supports containers.",
+      "It has advanced scheduling capabilities to assign jobs to available resources.",
+      "It has no inferencing capabilities.",
+      "It does load balancing to distribute traffic across containers."
+    ],
+    "answer": "It has advanced scheduling capabilities to assign jobs to available resources.",
+    "reasoning": "At its core, Kubernetes provides sophisticated scheduling capabilities that enable it to efficiently place containerized workloads onto available compute nodes."
+  },
+  {
+    "question": "In an AI cluster, what is the purpose job scheduling?",
+    "options": [
+      "To gather and analyze cluster data on a regular schedule.",
+      "To monitor and troubleshoot cluster performance.",
+      "To assign workloads to available compute resources.",
+      "To install, update, and configure cluster software."
+    ],
+    "answer": "To assign workloads to available compute resources.",
+    "reasoning": "Job scheduling is the mechanism that assigns workloads to specific available compute resources to satisfy resource constraints, priorities, and policy goals."
+  },
+  {
+    "question": "In an AI cluster, what is the importance of using Slurm?",
+    "options": [
+      "Slurm is used for data storage and retrieval in an AI cluster.",
+      "Slurm is responsible for AI model training and inference in an AI cluster.",
+      "Slurm is used for interconnecting nodes in an AI cluster.",
+      "Slurm helps with managing job scheduling and resource allocation in the cluster."
+    ],
+    "answer": "Slurm helps with managing job scheduling and resource allocation in the cluster.",
+    "reasoning": "Slurm is a workload manager that orchestrates job scheduling and resource allocation across cluster nodes, enforcing policies and maximizing utilization for AI workloads."
+  },
+  {
+    "question": "What NVIDA tool should a data center administrator use to monitor NVIDIA GPUs?",
+    "options": [
+      "NVIDIA System Monitor",
+      "NetQ",
+      "DCGM"
+    ],
+    "answer": "DCGM",
+    "reasoning": "DCGM (Data Center GPU Manager) is purpose-built for scalable, programmatic telemetry, health monitoring, diagnostics, and lifecycle management of NVIDIA GPUs across data-center deployments."
+  },
+  {
+    "question": "What is the primary command for checking the GPU utilization on a single DGX H100 system?",
+    "options": [
+      "nvidia-smi",
+      "ctop",
+      "nvml"
+    ],
+    "answer": "nvidia-smi",
+    "reasoning": "nvidia-smi is the vendor-provided, command-line utility specifically designed to report GPU utilization and health metrics on NVIDIA systems."
+  },
+  {
+    "question": "What is a common tool for container orchestration in AI clusters?",
+    "options": [
+      "Kubernetes",
+      "MLOps",
+      "Slurm",
+      "Apptainer"
+    ],
+    "answer": "Kubernetes",
+    "reasoning": "Kubernetes is a production-grade, cloud-native container orchestration platform that provides scheduling, scaling, and service discovery required to manage containerized AI workloads."
+  },
+  {
+    "question": "Which of the following NVIDIA tools is primarily used for monitoring and managing AI infrastructure in the enterprise?",
+    "options": [
+      "NVIDIA NeMo System Manager",
+      "NVIDIA Data Center GPU Manager",
+      "NVIDIA DGX Manager",
+      "NVIDIA Base Command Manager"
+    ],
+    "answer": "NVIDIA Base Command Manager",
+    "reasoning": "NVIDIA Base Command Manager is specifically designed as an enterprise-grade platform for the end-to-end management and monitoring of AI infrastructure."
+  },
+  {
+    "question": "Which NVIDIA software provides the capability to virtualize a GPU?",
+    "options": [
+      "Horizon",
+      "vGPU",
+      "virtGPU"
+    ],
+    "answer": "vGPU",
+    "reasoning": "NVIDIA vGPU is the vendor’s explicit software stack that partitions a physical NVIDIA GPU into virtual GPU instances and exposes them to guest virtual machines."
+  },
+  {
+    "question": "When monitoring a GPU-based workload, what is GPU utilization?",
+    "options": [
+      "The maximum amount of time a GPU will be used for a workload.",
+      "The GPU memory in use compared to available GPU memory.",
+      "The percentage of time the GPU is actively processing data.",
+      "The number of GPU cores available to the workload."
+    ],
+    "answer": "The percentage of time the GPU is actively processing data.",
+    "reasoning": "GPU utilization measures the fraction of elapsed time the GPU's execution engines are actively processing work (expressed as a percentage)."
+  },
+  {
+    "question": "What is the importance of a job scheduler in an AI resource-constrained cluster?",
+    "options": [
+      "It allocates resources based on which job requests came first.",
+      "It ensures the all jobs in the cluster are executed simultaneously.",
+      "It increases the number of resources available in the cluster.",
+      "It allocates resources efficiently and optimizes job execution."
+    ],
+    "answer": "It allocates resources efficiently and optimizes job execution.",
+    "reasoning": "A scheduler enforces allocation policies and optimizes placement to maximize utilization, minimize latency, and meet QoS objectives in resource-constrained AI clusters."
+  },
+  {
+    "question": "Which NVIDIA tool aids Data Center monitoring and management?",
+    "options": [
+      "NVIDIA Mellanox Insight",
+      "NVIDIA Clara",
+      "NVIDIA TensorRT",
+      "NVIDIA DCGM"
+    ],
+    "answer": "NVIDIA DCGM",
+    "reasoning": "NVIDIA Data Center GPU Manager (DCGM) is the purpose-built NVIDIA system management stack for real-time GPU telemetry, diagnostics, and operational control across datacenter clusters."
+  },
+  {
+    "question": "How is Out-of-band Management utilized by network operators in an AI environment?",
+    "options": [
+      "It used to remotely manage and troubleshoot network devices independently of the production network.",
+      "It is used to directly manage the AI model’s learning rate during training sessions.",
+      "It is used to increase the computational power of AI models by adapting additional processing resources.",
+      "It is used to manage the data throughput of AI applications by prioritizing network traffic."
+    ],
+    "answer": "It used to remotely manage and troubleshoot network devices independently of the production network.",
+    "reasoning": "Out-of-band management provides an isolated, dedicated control channel that lets operators remotely manage and troubleshoot hardware and firmware independently of the production data plane."
+  },
+  {
+    "question": "What is the maximum number of MIG instances that an H100 GPU provides?",
+    "options": [
+      "7",
+      "8",
+      "4"
+    ],
+    "answer": "7",
+    "reasoning": "The H100’s Multi-Instance GPU (MIG) hardware partitioning supports a maximum of seven independent MIG instances per GPU."
+  },
+  {
+    "question": "What is a significant benefit of using containers in an AI development environment?",
+    "options": [
+      "They increase the base accuracy of AI models by optimizing their algorithms.",
+      "They ensure that AI applications run consistently across different computing environments.",
+      "They can automatically generate AI datasets for machine learning model training.",
+      "They directly increase the processing speed of GPUs used in AI computations."
+    ],
+    "answer": "They ensure that AI applications run consistently across different computing environments.",
+    "reasoning": "Containers encapsulate application code, libraries, and runtime dependencies so that AI applications execute deterministically and identically across diverse compute environments."
+  },
+  {
+    "question": "In the field of Artificial Intelligence, there is a hierarchical structure of subsets that delineates the relationship between different areas of study and application within AI. What is the hierarchical structure of subsets?",
+    "options": [
+      "Machine Learning, Generative AI, Deep Learning",
+      "Generative AI, Deep Learning, Machine Learning",
+      "Machine Learning, Deep Learning, Generative AI"
+    ],
+    "answer": "Machine Learning, Deep Learning, Generative AI",
+    "reasoning": "Machine Learning is the broad superset, Deep Learning is a methodological subset within ML, and Generative AI is a narrower class of generative-function models that instantiated via deep learning."
+  },
+  {
+    "question": "Which architecture, training or inference, requires more data storage?",
+    "options": [
+      "Training and inference architecture require the same amount of data storage.",
+      "Training architecture requires more data storage.",
+      "Inference architecture requires more data storage."
+    ],
+    "answer": "Training architecture requires more data storage.",
+    "reasoning": "Training architectures must store large raw/preprocessed datasets, multiple checkpoints, and optimizer state that together far exceed the storage footprint of inference artifacts."
+  },
+  {
+    "question": "Which characteristic best describes inference when comparing inference to deep learning training?",
+    "options": [
+      "Inference requires smaller amounts of hardware.",
+      "Inference has larger data requirements.",
+      "Inference takes longer to evaluate."
+    ],
+    "answer": "Inference requires smaller amounts of hardware.",
+    "reasoning": "Inference requires only the model’s forward pass and modest working memory, allowing execution on much smaller hardware footprints than training."
+  },
+  {
+    "question": "What is one of the primary benefits of using the NVIDIA GPU Operator in Kubernetes environments?",
+    "options": [
+      "It increases the processing power of CPUs within the Kubernetes cluster.",
+      "It automatically updates the Kubernetes version across all nodes.",
+      "It provides automatic scaling of NVIDIA GPU resources based on application demand.",
+      "It simplifies the management and deployment of NVIDIA GPU software components."
+    ],
+    "answer": "It simplifies the management and deployment of NVIDIA GPU software components.",
+    "reasoning": "The NVIDIA GPU Operator automates the deployment, configuration, and lifecycle management of the NVIDIA GPU software stack in Kubernetes, turning complex tasks into declarative operations."
+  },
+  {
+    "question": "Which type of GPU core was designed to offer multi-precision computing for deep learning training and inference?",
+    "options": [
+      "Ray Tracing Cores",
+      "CUDA Cores",
+      "Tensor Cores"
+    ],
+    "answer": "Tensor Cores",
+    "reasoning": "Tensor Cores are specialized matrix-multiply–accumulate units engineered to execute mixed-precision linear algebra primitives that accelerate deep learning training and inference."
+  },
+  {
+    "question": "What is the benefit of NGC?",
+    "options": [
+      "It provides licensing for GPU-optimized software.",
+      "It provides air-gapped solution for secure environments.",
+      "It provides a curated set of GPU-optimized software."
+    ],
+    "answer": "It provides a curated set of GPU-optimized software.",
+    "reasoning": "NGC is a curated registry/catalog of validated, GPU-optimized containers, pre-trained models, and SDKs that ensure performance, compatibility, and reproducibility across NVIDIA GPU stacks."
+  },
+  {
+    "question": "As an IT Professional, you have been assigned to optimize the performance of a deep learning model. Which of the following is a benefit of NVIDIA TensorRT?",
+    "options": [
+      "Improved inference performance and reduced latency.",
+      "Enhanced fine-tuning capabilities for deep learning models.",
+      "Enhanced training capabilities for deep learning models."
+    ],
+    "answer": "Improved inference performance and reduced latency.",
+    "reasoning": "NVIDIA TensorRT is an SDK designed to optimize trained deep learning models for high-performance inference, primarily accelerating execution and reducing latency."
+  },
+  {
+    "question": "Which NVIDIA platform is used to build and deploy commercial-grade, AI-powered robots?",
+    "options": [
+      "Merlin",
+      "Clara",
+      "Isaac"
+    ],
+    "answer": "Isaac",
+    "reasoning": "NVIDIA Isaac is explicitly designed as a comprehensive platform for building, deploying, and managing AI-powered robots, providing tools and SDKs for commercial-grade robotic applications."
+  },
+  {
+    "question": "Which of the following statements is true about the difference between GPU and CPU architectures?",
+    "options": [
+      "A GPU has fewer cores but more cache memory than a CPU.",
+      "A GPU has more cores but less cache memory than CPU.",
+      "A GPU has more cores and more cache memory than a CPU.",
+      "A GPU has fewer cores and less cache memory than a CPU."
+    ],
+    "answer": "A GPU has more cores but less cache memory than CPU.",
+    "reasoning": "GPUs are built for massive parallelism with thousands of simpler cores but generally feature less cache memory per core compared to CPUs, which prioritize large multi-level caches."
+  },
+  {
+    "question": "An engineer is training an autonomous robot to interact with the real world, completing tasks like moving objects from one place to another. Which type of machine learning should be used?",
+    "options": [
+      "Reinforcement",
+      "Clustering",
+      "Supervised"
+    ],
+    "answer": "Reinforcement",
+    "reasoning": "Reinforcement Learning (RL) is the most suitable paradigm for training an autonomous robot to interact with the world via trial-and-error to maximize a cumulative reward."
+  },
+  {
+    "question": "What is CUDA?",
+    "options": [
+      "NVIDIA's deep learning libraries.",
+      "NVIDIA's parallel programming toolkit.",
+      "NVIDIA's containerization SDK."
+    ],
+    "answer": "NVIDIA's parallel programming toolkit.",
+    "reasoning": "CUDA is NVIDIA's parallel computing platform and programming model that acts as a comprehensive toolkit enabling developers to utilize GPUs for general-purpose processing."
+  },
+  {
+    "question": "A warehousing company wants to improve its efficiency by bringing automation to its warehouses. They're considering maintaining warehouse robots, which can learn on the go regarding new or re-assigned stocking. What is the appropriate platform for this customer's use case?",
+    "options": [
+      "NVIDIA Isaac",
+      "NVIDIA Merlin",
+      "NVIDIA Riva"
+    ],
+    "answer": "NVIDIA Isaac",
+    "reasoning": "NVIDIA Isaac is an end-to-end platform designed for the development, simulation, and deployment of AI-powered robots, making it perfectly suited for adaptive warehouse automation."
+  },
+  {
+    "question": "Which library removes the need for developers to optimize their applications for specific machines?",
+    "options": [
+      "RoCE",
+      "MIG",
+      "NCCL"
+    ],
+    "answer": "NCCL",
+    "reasoning": "The NVIDIA Collective Communications Library (NCCL) provides high-performance, GPU-accelerated communication primitives that abstract away the complexities of inter-GPU and inter-node data transfer."
+  },
+  {
+    "question": "What factor has led to the rapid increase and adoption of AI?",
+    "options": [
+      "The efficient use of large amounts of data to train models.",
+      "The adoption of software libraries for portability.",
+      "Standard software integration between CPUs and GPUs."
+    ],
+    "answer": "The efficient use of large amounts of data to train models.",
+    "reasoning": "The most significant factor driving the rapid increase and adoption of AI is the efficient utilization of massive datasets to train sophisticated models."
+  },
+  {
+    "question": "Which NVIDIA product is used for Data preparation in an AI workflow?",
+    "options": [
+      "DLSS",
+      "RAPIDS",
+      "DOCA"
+    ],
+    "answer": "RAPIDS",
+    "reasoning": "NVIDIA RAPIDS is a comprehensive suite of open-source software libraries designed to accelerate end-to-end data science and data preparation pipelines entirely on GPUs."
+  },
+  {
+    "question": "An AI system is deployed to detect when people enter a restricted area using multiple IP cameras. Which AI use case is being exercised?",
+    "options": [
+      "Video Surveillance",
+      "Intelligent Video Analytics",
+      "Signal Processing"
+    ],
+    "answer": "Intelligent Video Analytics",
+    "reasoning": "Intelligent Video Analytics (IVA) actively processes video data streams using machine learning to understand content, such as autonomously detecting and tracking people entering restricted areas."
+  },
+  {
+    "question": "Which of the following is a high-level specification related to cooling requirements within a data center?",
+    "options": [
+      "Utilizing a centralized air conditioning system to cool the entire data center.",
+      "Maintaining a constant humidity level of 2% throughout the facility.",
+      "Implementing a hot aisle/cold aisle layout to optimize airflow and cooling efficiency."
+    ],
+    "answer": "Implementing a hot aisle/cold aisle layout to optimize airflow and cooling efficiency.",
+    "reasoning": "A hot aisle/cold aisle layout defines a fundamental architectural strategy and high-level specification for optimizing thermal management and airflow within a data center."
+  },
+  {
+    "question": "What are the most common modes of communication in clusters?",
+    "options": [
+      "Linux and POSIX.",
+      "MPI and PVM.",
+      "CUDA and DOCA."
+    ],
+    "answer": "MPI and PVM.",
+    "reasoning": "MPI (Message Passing Interface) and PVM (Parallel Virtual Machine) are the most common modes of communication designed specifically for inter-process communication in distributed memory clusters."
+  },
+  {
+    "question": "What is a key feature of the GPUDirect protocol for transfers between GPUs and other PCIe devices?",
+    "options": [
+      "It uses RDMA to eliminate CPU bottlenecks.",
+      "It uses virtual IP addresses to create private communication channels.",
+      "It uses the host's kernel."
+    ],
+    "answer": "It uses RDMA to eliminate CPU bottlenecks.",
+    "reasoning": "GPUDirect creates peer-to-peer connections over PCIe, enabling RDMA to bypass the CPU and system memory entirely for direct transfers."
+  },
+  {
+    "question": "In data center deployments, what are the three most important constraints to consider?",
+    "options": [
+      "Bandwidth, latency, and redundancy.",
+      "Budget, location, and security.",
+      "Physical space, power, and cooling."
+    ],
+    "answer": "Physical space, power, and cooling.",
+    "reasoning": "Physical space, power, and cooling are the foundational environmental and resource constraints that must be addressed first and foremost for any data center deployment."
+  },
+  {
+    "question": "What is used in a DPU to enhance storage performance?",
+    "options": [
+      "DPUDirect",
+      "STGEDirect",
+      "GPUDirect"
+    ],
+    "answer": "GPUDirect",
+    "reasoning": "GPUDirect (specifically GPUDirect Storage) works with DPUs to enable direct data exchange between GPUs and NVMe storage devices without involving the host CPU's main memory."
+  },
+  {
+    "question": "What technology allows the lowest networking latency for AI training in a data center?",
+    "options": [
+      "Ethernet",
+      "Fibre Channel",
+      "InfiniBand"
+    ],
+    "answer": "InfiniBand",
+    "reasoning": "InfiniBand offers the lowest networking latency by using a streamlined protocol and native RDMA, bypassing OS kernel overhead for high-performance computing workloads."
+  },
+  {
+    "question": "The data center administrator is asked to deploy infrastructure to support training of a large natural language processing model with a billion parameters and they need the fastest method to train the model. What should the administrator recommend to support this?",
+    "options": [
+      "Single server with 4-8 NVIDIA GPUs.",
+      "Two Node NVIDIA DGX Cluster.",
+      "NVIDIA DGX SuperPOD."
+    ],
+    "answer": "NVIDIA DGX SuperPOD.",
+    "reasoning": "A billion-parameter model requires massive computational power, scaling, and high-speed interconnects, making the NVIDIA DGX SuperPOD the only option capable of providing the fastest training method."
+  },
+  {
+    "question": "Which NVIDIA platform is designed for Edge deployments?",
+    "options": [
+      "DGX",
+      "Jetson",
+      "RTX"
+    ],
+    "answer": "Jetson",
+    "reasoning": "NVIDIA Jetson is explicitly designed for edge deployments as a family of embedded computing boards that bring AI and GPU acceleration to small, power-efficient devices."
+  },
+  {
+    "question": "The Bluefield 3 DPU mission is best defined by what three features?",
+    "options": [
+      "offload, accelerate, converge",
+      "offload, accelerate, isolate",
+      "offload, isolate, virtualize"
+    ],
+    "answer": "offload, accelerate, isolate",
+    "reasoning": "The BlueField 3 DPU's mission is defined by its ability to offload, accelerate, and isolate critical data center infrastructure functions from the host CPU."
+  },
+  {
+    "question": "Which network provides the optimal performance for multi-node AI training workloads?",
+    "options": [
+      "Software Defined Network (SDN)",
+      "Fibre Channel",
+      "InfiniBand"
+    ],
+    "answer": "InfiniBand",
+    "reasoning": "InfiniBand provides optimal performance due to its ultra-low latency, exceptionally high bandwidth, and native support for Remote Direct Memory Access (RDMA) essential for distributed AI training."
+  },
+  {
+    "question": "What is an advantage of on-premise GPU resources?",
+    "options": [
+      "Data sovereignty.",
+      "Flexible operating costs.",
+      "Access to unlimited compute."
+    ],
+    "answer": "Data sovereignty.",
+    "reasoning": "On-premise deployments provide complete physical and legal control over information assets, directly enabling data sovereignty for regulated industries."
+  },
+  {
+    "question": "In a data center, what is the key purpose of a UPS (Uninterruptible Power Supply)?",
+    "options": [
+      "To provide backup power in case of a power outage.",
+      "To cool the data center and maintain optimal temperature.",
+      "To regulate the voltage of incoming power to prevent damage to equipment."
+    ],
+    "answer": "To provide backup power in case of a power outage.",
+    "reasoning": "The key purpose of a UPS is to provide immediate, temporary backup power in the event of a utility power outage or fluctuation."
+  },
+  {
+    "question": "What is an important consideration to ensure that proper airflow is provided through a data center rack?",
+    "options": [
+      "Cabinet doors should be left open at all times.",
+      "Blanking panels are installed wherever possible.",
+      "All systems should include dual-rotor fans and copper heatsinks."
+    ],
+    "answer": "Blanking panels are installed wherever possible.",
+    "reasoning": "Blanking panels prevent the recirculation of hot exhaust air to the front (cold aisle) and stop cool air from bypassing active IT equipment."
+  },
+  {
+    "question": "What allows the CPU to be bypassed when using Ethernet?",
+    "options": [
+      "DALI",
+      "RoCE",
+      "Jumbo packets"
+    ],
+    "answer": "RoCE",
+    "reasoning": "RoCE (RDMA over Converged Ethernet) leverages Remote Direct Memory Access to enable direct memory-to-memory transfers bypassing the CPU and kernel over a standard Ethernet network."
+  },
+  {
+    "question": "What common bottleneck does GPU Direct Storage avoid?",
+    "options": [
+      "Low network bandwidth.",
+      "Storage fabric bandwidth.",
+      "Using the CPU to copy data."
+    ],
+    "answer": "Using the CPU to copy data.",
+    "reasoning": "GPU Direct Storage enables a direct data path from storage devices straight into GPU memory, completely bypassing the CPU and system RAM."
+  },
+  {
+    "question": "How does NVSwitch contribute to accelerating network performance in an AI environment?",
+    "options": [
+      "NVSwitch reduces network latency by enabling direct communication between GPUs without going through the CPU.",
+      "NVSwitch amplifies the bandwidth of traditional Ethernet networks to speed up AI data processing.",
+      "NVSwitch enhances signal strength for better wireless connectivity in AI applications.",
+      "NVSwitch increases the storage capacity of AI systems by directly connecting to solid-state drives (SSDs)."
+    ],
+    "answer": "NVSwitch reduces network latency by enabling direct communication between GPUs without going through the CPU.",
+    "reasoning": "NVSwitch establishes a dedicated, high-speed fabric that directly connects multiple GPUs, bypassing the CPU and system memory entirely."
+  },
+  {
+    "question": "Which data format is best for efficient and accurate AI model training?",
+    "options": [
+      "Mixed precision (FP8/FP16/TF32/FP32)",
+      "Brain Floating-point format (BF16)",
+      "Double-precision floating point (FP64)"
+    ],
+    "answer": "Mixed precision (FP8/FP16/TF32/FP32)",
+    "reasoning": "Mixed precision training leverages different precision levels to optimize both computational speed and model convergence while reducing memory consumption."
+  },
+  {
+    "question": "What are some of the key benefits of investing in GPUs from a cloud service provider?",
+    "options": [
+      "Low financial barrier to entry and ability to rapidly scale up or down.",
+      "Higher performance GPUs than on-premise.",
+      "Full stack control of the environment and choice of networking."
+    ],
+    "answer": "Low financial barrier to entry and ability to rapidly scale up or down.",
+    "reasoning": "Cloud providers offer a pay-as-you-go model that removes massive upfront capital expenditures and provides elastic scalability to adjust resources dynamically."
+  },
+  {
+    "question": "How many out-of-band network management connections are in a DGX H100 system?",
+    "options": [
+      "1",
+      "4",
+      "2"
+    ],
+    "answer": "1",
+    "reasoning": "A DGX H100 system includes one out-of-band (OOB) network management connection used for system-level management and monitoring via the BMC."
+  },
+  {
+    "question": "What is the maximum number of GPU instances you can partition with NVIDIA MIG (Multi-Instance GPU)?",
+    "options": [
+      "7",
+      "3",
+      "5",
+      "9"
+    ],
+    "answer": "7",
+    "reasoning": "NVIDIA MIG technology allows a single physical GPU to be partitioned into as many as 7 independent hardware-isolated GPU instances."
+  },
+  {
+    "question": "What is the primary function of a Baseboard Management Controller (BMC) on a system in an AI environment?",
+    "options": [
+      "It serves as the main data storage controller, managing all hard drives and SSDs within the server.",
+      "It allows for out-of-band remote management of the device, even when the system is powered off.",
+      "It functions as a hardware-based firewall, protecting the server from external threats.",
+      "It acts as a primary in-band network interface, controlling all inbound and outbound network traffic."
+    ],
+    "answer": "It allows for out-of-band remote management of the device, even when the system is powered off.",
+    "reasoning": "A BMC provides comprehensive out-of-band remote management capabilities operating entirely independently of the server's main CPU and OS."
+  },
+  {
+    "question": "What is the benefit of Kubernetes in application deployments in an AI environment?",
+    "options": [
+      "It simplifies deployment through automation of AI algorithms for machine learning models.",
+      "It improves scaling through enhancement of the computational power of GPUs used in AI workloads.",
+      "It simplifies deployment and directly improves the accuracy of AI models by optimizing their hyperparameters.",
+      "It improves scaling of applications by allowing for automated replication and load balancing of containers."
+    ],
+    "answer": "It improves scaling of applications by allowing for automated replication and load balancing of containers.",
+    "reasoning": "Kubernetes robustly improves application scaling through automated horizontal scaling (replication) and intelligent load balancing of containerized microservices."
+  },
+  {
+    "question": "What is a significant benefit of using Slurm in high-performance computing (HPC) environments?",
+    "options": [
+      "Slurm provides an orchestration tool to compile drivers and libraries in an HPC environment.",
+      "Slurm automatically writes and optimizes code for HPC applications to ensure the best performance.",
+      "Slurm increases the clock speed of CPUs in HPC clusters to improve computational performance.",
+      "Slurm provides a robust job scheduling system that optimizes the allocation of computational resources."
+    ],
+    "answer": "Slurm provides a robust job scheduling system that optimizes the allocation of computational resources.",
+    "reasoning": "Slurm acts as a sophisticated orchestrator, prioritizing, managing, and intelligently scheduling computational tasks across finite cluster resources."
+  },
+  {
+    "question": "Which platform allows for the simple deployment of scalable AI models in production?",
+    "options": [
+      "TensorFlow",
+      "TensorRT",
+      "Triton"
+    ],
+    "answer": "Triton",
+    "reasoning": "NVIDIA Triton Inference Server is engineered as an open-source, high-performance inference serving software that simplifies scalable deployment of AI models across frameworks."
+  },
+  {
+    "question": "What is a common tool used for container orchestration in AI clusters?",
+    "options": [
+      "Slurm",
+      "Apptainer",
+      "Kubernetes",
+      "MLOps"
+    ],
+    "answer": "Kubernetes",
+    "reasoning": "Kubernetes is the de-facto standard for container orchestration in AI-focused clusters, offering native support for scaling and containerized workloads."
+  },
+  {
+    "question": "What distinguishes GPU architecture from CPU architecture?",
+    "options": [
+      "GPUs have thousands of smaller cores for parallel tasks.",
+      "CPUs have more cores than GPUs.",
+      "CPUs lack memory bandwidth.",
+      "GPUs prioritize single-threaded performance."
+    ],
+    "answer": "GPUs have thousands of smaller cores for parallel tasks.",
+    "reasoning": "GPU architectures are built around thousands of tiny, SIMD-oriented cores that excel at executing the same instruction on many data elements simultaneously."
+  },
+  {
+    "question": "Which networking protocol is critical for low-latency GPU communication in AI clusters?",
+    "options": [
+      "TCP/IP",
+      "HTTP/3",
+      "DNS",
+      "RoCE"
+    ],
+    "answer": "RoCE",
+    "reasoning": "RoCE (RDMA over Converged Ethernet) is specifically designed to deliver low-latency, lossless, and near-wire-speed communication directly bypassing the kernel network stack."
+  },
+  {
+    "question": "What is a key architectural difference between AI training and inference?",
+    "options": [
+      "Inference workloads cannot utilize GPU acceleration; training requires GPU acceleration for efficiency.",
+      "Training uses dedicated DPU resources for optimization; inference uses CPU resources for predictions.",
+      "Training requires high compute power for parameter optimization; inference prioritizes low latency.",
+      "Inference requires deployment on multiple GPUs; training requires fewer GPUs for operation."
+    ],
+    "answer": "Training requires high compute power for parameter optimization; inference prioritizes low latency.",
+    "reasoning": "Training is compute-intensive requiring sustained high-throughput GPU utilization, whereas inference is latency-sensitive and focuses on rapid prediction delivery."
+  },
+  {
+    "question": "In the context of data center use cases, what is the primary purpose of NVIDIA AI Factories?",
+    "options": [
+      "To enhance traditional data storage solutions with advanced AI capabilities.",
+      "To serve as a backup solution for critical data in real time environments.",
+      "To optimize machine learning workflows by integrating data processing and AI model training.",
+      "To provide high-performance computing for large-scale simulations."
+    ],
+    "answer": "To optimize machine learning workflows by integrating data processing and AI model training.",
+    "reasoning": "NVIDIA AI Factories are purpose-built platforms that combine high-throughput data ingestion, preprocessing, and distributed training pipelines to accelerate end-to-end ML workflows."
+  },
+  {
+    "question": "Which factor is most important when selecting a network fabric for distributed deep learning training across multiple GPUs and nodes?",
+    "options": [
+      "Built-in web filtering",
+      "High bandwidth and low latency",
+      "Wireless connectivity",
+      "Support for IPv6"
+    ],
+    "answer": "High bandwidth and low latency",
+    "reasoning": "Distributed training relies on moving large tensors across GPUs very rapidly. High bandwidth and low latency prevent collective communication synchronization steps from becoming bottlenecks."
+  },
+  {
+    "question": "Which tool is designed for container orchestration in AI clusters?",
+    "options": [
+      "Kubernetes",
+      "PostgreSQL",
+      "Apache Spark",
+      "SLURM"
+    ],
+    "answer": "Kubernetes",
+    "reasoning": "Kubernetes natively handles scheduling, scaling, networking, and storage for containerized AI workloads, making it the preferred platform for orchestrating AI clusters."
+  }
+]
